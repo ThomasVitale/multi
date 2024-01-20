@@ -16,6 +16,7 @@ jobs:
 
       - name: Logs Ollama
         run: |
+          sleep 10
           docker logs ollama
 
       - name: Test Ollama
